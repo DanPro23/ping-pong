@@ -8,6 +8,7 @@ WHITE = (255, 255, 255)
 
 BUTTONS = ["ПОЧАТИ", "НАЛАШТУВАННЯ", "ВИХІД"]
 
+# class for buttons
 class Button:
     def __init__(self, text, font, width, height, pos, round_top=False, round_bottom=False):
         self.text = text
